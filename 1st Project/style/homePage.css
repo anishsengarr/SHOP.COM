@@ -1,0 +1,205 @@
+#container{
+    background-color: #f0f1f7;
+}
+#main{
+    background-color: white;
+}
+#logo{
+    width: 20px;
+    height: 20px;
+}
+#main>div{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.more{
+    border: 1px solid black;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.more>a{
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.flexing{
+    width: 100%;
+}
+.box1,.box2{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.box1>div{
+    height: 420px;
+    width: 340px;
+    margin: auto;
+    background-color: white;
+}
+.box1>div>img{
+    height: 320px;
+    width: 330px;
+    padding: 5px;
+}
+.box1>div>p{
+    font-size:20px;
+    margin-left: 20px;
+    
+}
+.box1>div>div{
+    text-align: center;
+    margin: 10px;
+    background-color: #f0f1f7;
+}
+.box1>div>div>img{
+    background-color: #f0f1f7;
+    padding: 10px;
+}
+.box1>div>div>a{
+    text-align: bottom;
+    margin-top: 50px;
+}
+button{
+    width: 80%;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgb(65, 68, 103);
+    color: white;
+    font-weight: bold;
+    margin-left: 23px;
+    
+}
+#short{
+    height: auto;
+    padding-bottom: 10px;
+    
+}
+.box2{
+    background-color: white;
+    padding-bottom: 20px;
+}
+.box2>div{
+    height: 700px;
+    width: auto;
+    margin: auto;
+    margin-top: 60px;
+    background-color: white;
+    text-align: center;
+}
+.box2>div>h3{
+    margin-top: 5px;
+    padding-bottom: 40px;
+}
+#bigBox{
+    width: 400px;
+
+}
+#bigBox>img{
+    width: 400px;
+    height: 400px;
+    margin-top: 150px;
+}
+.logo1{
+    width: 13px;
+    height: 13px;
+}
+#box3{
+    margin-top: 0px;
+    background-color: white;
+    display: flex;
+    width: 70%;
+    overflow-x: auto;
+
+}
+#box3::-webkit-scrollbar-corner{
+    width: 2px;
+}
+#box3>div{
+    width: 250px;
+    height: auto;
+    margin-right: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: white;
+    margin: 10px;
+
+
+}
+#box3>div>img{
+    width: 238px;
+    height: 238px;
+}
+#Mbox3{
+    padding-top: 20px;
+    display: flex;
+    margin-left: 10px;
+}
+#box3>div>p{
+    line-height: 4px;
+}
+#box3>div>h4{
+    color: blue;
+}
+#addv{
+    height: 400px;
+    width: 530px;
+}
+#box4{
+    margin: 20px;
+    padding-top: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+#box4>div{
+    text-align: center;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+#box5{
+    padding: 20px;
+    background-color: white;
+    margin: auto;
+}
+#box5>div{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+#box5>div:last-child{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+
+}
+#box5>div>div>img{
+    border: 12px solid #f0f1f7;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+}
+#box5>div>h2{
+    font-size: 40px;
+    font-family: oswald;
+}
+#mmb{
+    background-color: white;
+}
+#mmb>h2{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0px;
+}
+#mbox4>div{
+    text-align: center;
+    background-color: white;
+}
+#mbox4>div>h2{
+    font-size: 40px;
+    padding-top: 20px;
+}
