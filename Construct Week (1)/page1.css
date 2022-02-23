@@ -7,7 +7,7 @@
 } */
 #container{
     
-    border:1px solid black;
+    /* border:1px solid black; */
     height: 500px;
     width:100%;
     margin:auto;
@@ -60,7 +60,7 @@ button{
 }
 #box2>div>div{
     margin-left:5px;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 a{
     color:#dadbe6;
@@ -78,15 +78,32 @@ font-size: 19.5px;
     /* border:1px solid red */
 }
 #icon{
-    border:1px solid yellow;
+    /* border:1px solid yellow; */
     width:15%;
     height:35px;
     
 }
-.Market{
-    margin-top: -50px;
-}
+/* .Market{
+   padding:px
+} */
 .Market>a{
     color:black;
+}
+#logo{
+    /* background-color: aqua; */
+    display: flex;
+    margin-left:300px;
+}
+#logo>img{
+    margin:5px;
+    height:100px;
+    width:100px;
+
+    
+}
+#last2>img{
+    height:100px;
+    width:190px;
+    margin-left:10px
 }
 
