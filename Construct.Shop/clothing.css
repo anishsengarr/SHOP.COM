@@ -1,0 +1,38 @@
+
+        p{
+            line-height:2px;
+        }
+        .logo1{
+        width: 13px;
+        height: 13px;
+        }
+        #box{
+        padding: 20px;
+        background-color: white;
+        margin: auto;
+        }
+        #box>div{
+        margin-top: 10px;
+        justify-content: center;
+        text-align: left;
+        margin: auto;
+        width: 100%;
+        }
+        #box>div:last-child{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: auto;
+        gap: 5px;
+        
+        }
+        #box>div>div>img{
+        border-radius: 5%;
+        width: auto;
+        height: 270px;
+        }
+        #box>div>h2{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 2px;
+        }
+       
