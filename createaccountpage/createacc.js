@@ -16,6 +16,19 @@ function createacc() {
     password2: password2,
     phone: phone,
   };
+  if (obj.password1 != obj.password2) {
+    alert("wrong password entered");
+
+    if (obj.name === "" || obj.password1 === "" || obj.password2 === "") {
+      return;
+    }
+    return;
+  }
   arr.push(obj);
   localStorage.setItem("userDataBase", JSON.stringify(arr));
+}
+document.getElementById("btn").addEventListener("click", linked);
+function linked() {
+  event.preventDefault();
+  window.location.href = "../signin";
 }
