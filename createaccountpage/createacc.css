@@ -23,7 +23,7 @@ input {
   display: flex;
   column-gap: 50px;
 }
-#email {
+#emailcontainer {
   margin-top: 30px;
 }
 #passcontainer {
@@ -41,7 +41,7 @@ input[type="checkbox"] {
 #checkboxcontainer {
   margin-top: -30px;
 }
-#phone {
+#phonecontainer {
   margin-top: 30px;
 }
 #phone > input {
