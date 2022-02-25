@@ -1,4 +1,4 @@
-#container{
+#hcontainer{
     display:flex;
     height:100px;
     width:100%;
@@ -6,28 +6,28 @@
     margin-top:0;
    
 }
-#navbar{
+#hnavbar{
     display:flex;
     margin-top:10px;
 }
-#shop{
+#hshop{
     width: 170px;
     height:50px;
     margin-top:10px;
     margin-left:1%;
 }
-#block{
+#hblock{
     display:block;
     height:100%;
     width:900px;
    
     margin-left:5%;
 }
-#categories{
+#hcategories{
     display: flex;
     flex-direction:space-between;
 }
-#search{
+#hsearch{
     display:flex;
     height:50px;
     width:90%;
@@ -46,37 +46,37 @@
     margin-right:2px;
     margin-top:6px;
 }
-#searchbar{
+#hsearchbar{
     height:80%;
     width:60%;
     margin-left:17px;
     display:flex;
 }
-#searchbar > input {
+#hsearchbar > input {
     width:100%;
     height:90%;
     
     margin-top:1%;
 }
-#alldepartment{
+#halldepartment{
     height:50%;
     width:170px;
    text-align:center;
     margin-top:12px;
     
 }
-#alldepartment>select{
+#halldepartment>select{
     font-size:15px;
     border:1px solid white;
    
 }
-#alldepartment>select>option{
+#halldepartment>select>option{
     font-size:15px;
     padding: auto;
     color:#071138;
 }
 
-#sevenset{
+#hsevenset{
     display:grid;
     grid-template-columns: repeat(7,100px);
     grid-template-rows: repeat(1,20px);
@@ -86,10 +86,10 @@
     color:gray;
   
 }
-#sevenset>div:hover{
+#hsevenset>div:hover{
     color:skyblue;
 }
-#signpart{
+#hsignpart{
     display:flex;
     height:50px;
     width:400px;
@@ -99,11 +99,11 @@
     margin-right:15px;
     font-size:20px;
 }
-#signpart>div:hover{
+#hsignpart>div:hover{
     color:skyblue;
 }
 
-#sidebarMenu {
+#hsidebarMenu {
     height: 100%;
     position: fixed;
     left: 0;
@@ -130,7 +130,7 @@
       font-weight: bold;
       text-decoration: none;
   }
-  #openSidebarMenu:checked ~ #sidebarMenu {
+  #hopenSidebarMenu:checked ~ #sidebarMenu {
       transform: translateX(0);
   }
   input#openSidebarMenu{
