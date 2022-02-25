@@ -18,10 +18,6 @@ function createacc() {
   };
   if (obj.password1 != obj.password2) {
     alert("wrong password entered");
-
-    if (obj.name === "" || obj.password1 === "" || obj.password2 === "") {
-      return;
-    }
     return;
   }
   arr.push(obj);
@@ -30,5 +26,5 @@ function createacc() {
 document.getElementById("btn").addEventListener("click", linked);
 function linked() {
   event.preventDefault();
-  window.location.href = "../signin";
+  window.location.href = "../signin/sign.html";
 }
