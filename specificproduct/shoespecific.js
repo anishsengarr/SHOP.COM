@@ -42,7 +42,11 @@ function addtokart() {
   let width = document.getElementById("widthselect").value;
   let qty = document.getElementById("qty").value;
   let price = 1699;
-  let kartobj = { qty: qty, price: price };
+  let kartobj = {
+    qty: qty,
+    price: price,
+    prodname: "Georgia Boot Small Batch Casual Boot",
+  };
   arrforkart.push(kartobj);
   localStorage.setItem("kartDataBase", JSON.stringify(arrforkart));
 
@@ -50,4 +54,5 @@ function addtokart() {
 }
 function delposs() {
   event.preventDefault();
+let pin=docu
 }

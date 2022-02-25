@@ -3,6 +3,7 @@
   display: flex;
   height: auto;
   column-gap: 5px;
+  margin: auto;
 }
 #verticalimg {
   display: inline-block;
@@ -22,10 +23,7 @@
 #productdetails {
   width: 40%;
 }
-#iconlinks {
-  width: 8%;
-  border: 1px solid greenyellow;
-}
+
 #mainimg > img {
   width: auto;
   height: 500px;
