@@ -55,12 +55,9 @@ function addtokart() {
 function delposs() {
   event.preventDefault();
   let pin = document.getElementById("pincode").value;
-  let myPin = 123456;
-  if (myPin == pin) {
-    alert("SHIPPING NOT ALLOWED");
-  } else if (pin == "") {
-    alert("PLEASE ENTER CORRECT PIN ");
+  if (pin.length == 6) {
+    alert("Wow! This product can ship to the location you've requested.");
   } else {
-    alert("SHIPPING IS ALLOWED   PLEASE ADD TO KART TO BUY");
+    alert("This product cannot be shipped to the location you've requested.");
   }
 }

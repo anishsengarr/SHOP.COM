@@ -1,4 +1,5 @@
 function showing11() {
+  event.preventDefault();
   let pic1 = document.createElement("img");
   pic1.src =
     "https://img.shop.com/Image/260000/269300/269358/products/1792099502__800x800__.jpg";
@@ -9,6 +10,7 @@ function showing11() {
   document.getElementById("mainimgimg").replaceWith(pic1);
 }
 function showing22() {
+  event.preventDefault();
   let pic2 = document.createElement("img");
   pic2.src =
     "https://img.shop.com/Image/260000/269300/269358/products/alt_782289746__800x800__.jpg";
@@ -18,6 +20,7 @@ function showing22() {
   document.getElementById("mainimgimg").replaceWith(pic2);
 }
 function showing33() {
+  event.preventDefault();
   let pic3 = document.createElement("img");
   pic3.src =
     "https://img.shop.com/Image/260000/269300/269358/products/alt_682724200__800x800__.jpg";
@@ -33,26 +36,23 @@ function addtokart() {
   let size = document.getElementById("sizeselect").value;
   let width = document.getElementById("widthselect").value;
   let qty = document.getElementById("qty").value;
-  let price = 1699;
+  let price = 700;
   let kartobj = {
     qty: qty,
     price: price,
-    prodname: "Georgia Boot Small Batch Casual Boot",
+    prodname: "batman sweatshirt",
   };
   arrforkart.push(kartobj);
   localStorage.setItem("kartDataBase", JSON.stringify(arrforkart));
 
-  window.location.href = "../1st Project/index.html";
+  window.location.href = "../kart page/kart.html";
 }
 function delposs() {
   event.preventDefault();
   let pin = document.getElementById("pincode").value;
-  let myPin = 123456;
-  if (myPin == pin) {
-    alert("SHIPPING NOT ALLOWED");
-  } else if (pin == "") {
-    alert("PLEASE ENTER CORRECT PIN ");
+  if (pin.length == 6) {
+    alert("Wow! This product can ship to the location you've requested.");
   } else {
-    alert("SHIPPING IS ALLOWED   PLEASE ADD TO KART TO BUY");
+    alert("This product cannot be shipped to the location you've requested.");
   }
 }
