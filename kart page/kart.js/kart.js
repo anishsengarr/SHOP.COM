@@ -26,33 +26,3 @@ data.map(function(elem){
     price.value = elem.price;
 
     var qty = document.createElement("small");
-    qty.innerText = elem.qty;
-
-    var line = document.createElement("br");
-
-    div2.append(name,price,line);
-
-    td.append(div2);
-
-    td1.append(qty);
-
-    var quantity = +elem.qty;
-
-    var prc = +elem.price;
-
-    var total = quantity*prc;
-
-    td2.append(total);
-
-    td3.append(elem.price);
-
-    row.append(td,td1,td3,td2)
-
-    document.querySelector("table").append(row);
-
-    var line = document.createElement("p");
-    line.innerHTML = total;
-
-    // document.querySelector("#sub").append(line);
-    document.querySelector("#sub").append(line);
-
