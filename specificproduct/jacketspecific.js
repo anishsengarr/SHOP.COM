@@ -1,40 +1,32 @@
-function showing1() {
+function showing11() {
   let pic1 = document.createElement("img");
   pic1.src =
-    "https://img.shop.com/Image/270000/279100/279185/products/1890336639__800x800__.jpg";
+    "https://img.shop.com/Image/260000/269300/269358/products/1792099502__800x800__.jpg";
   // document.getElementById("mainimg").append(pic);
   pic1.style.width = "500px";
   pic1.style.height = "500px";
   pic1.style.padding = "10px";
   document.getElementById("mainimgimg").replaceWith(pic1);
 }
-function showing2() {
+function showing22() {
   let pic2 = document.createElement("img");
   pic2.src =
-    "https://img.shop.com/Image/270000/279100/279185/products/alt_793710094__800x800__.jpg";
+    "https://img.shop.com/Image/260000/269300/269358/products/alt_782289746__800x800__.jpg";
   // document.getElementById("mainimg").append(pic);
   pic2.style.width = "500px";
   pic2.style.height = "500px";
   document.getElementById("mainimgimg").replaceWith(pic2);
 }
-function showing3() {
+function showing33() {
   let pic3 = document.createElement("img");
   pic3.src =
-    "https://img.shop.com/Image/270000/279100/279185/products/alt_793710095__800x800__.jpg";
+    "https://img.shop.com/Image/260000/269300/269358/products/alt_682724200__800x800__.jpg";
   // document.getElementById("mainimg").append(pic);
   pic3.style.width = "500px";
   pic3.style.height = "500px";
   document.getElementById("mainimgimg").replaceWith(pic3);
 }
-function showing4() {
-  let pic4 = document.createElement("img");
-  pic4.src =
-    "https://img.shop.com/Image/270000/279100/279185/products/alt_793710096__800x800__.jpg";
-  // document.getElementById("mainimg").append(pic);
-  pic4.style.width = "500px";
-  pic4.style.height = "500px";
-  document.getElementById("mainimgimg").replaceWith(pic4);
-}
+
 let arrforkart = JSON.parse(localStorage.getItem("kartDataBase")) || [];
 function addtokart() {
   event.preventDefault();
@@ -54,7 +46,7 @@ function addtokart() {
 }
 function delposs() {
   event.preventDefault();
-  let pin = document.getElementById("pincode").value; 
+  let pin = document.getElementById("pincode").value;
   let myPin = 123456;
   if (myPin == pin) {
     alert("SHIPPING NOT ALLOWED");
