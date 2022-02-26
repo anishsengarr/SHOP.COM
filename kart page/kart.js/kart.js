@@ -56,13 +56,3 @@ data.map(function(elem){
     // document.querySelector("#sub").append(line);
     document.querySelector("#sub").append(line);
 
-    document.querySelector("#fnll").append(total);
-
-
-
-})
-
-var sum=0;
-function getSum(total) {
-    return sum+=total ;
-  }
