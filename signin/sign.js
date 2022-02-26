@@ -21,11 +21,15 @@ var array=JSON.parse(localStorage.getItem("userDataBase"));
   var email=document.querySelector("#firstid").value ;
   var password=document.querySelector("#secid").value ;
   var count=0;
+
+  if(array.length==0){
+    alert("Enter the credentials")
+  }
   for(var i=0; i<array.length; i++)
   {
   if((email==array[i].email)&& (password==array[i].password1))
   {
-    window.location.href="../1st Project/index.html";
+    window.location.href="../1st Project/after Signin/index.html";
     count++;
   }
   
