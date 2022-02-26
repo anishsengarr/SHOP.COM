@@ -50,11 +50,11 @@ function addtokart() {
   arrforkart.push(kartobj);
   localStorage.setItem("kartDataBase", JSON.stringify(arrforkart));
 
-  window.location.href = "../1st Project/index.html";
+  window.location.href = "../kart page/kart.html";
 }
 function delposs() {
   event.preventDefault();
-  let pin = document.getElementById("pincode").value; 
+  let pin = document.getElementById("pincode").value;
   let myPin = 123456;
   if (myPin == pin) {
     alert("SHIPPING NOT ALLOWED");
