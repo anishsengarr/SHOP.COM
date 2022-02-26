@@ -14,15 +14,4 @@ data.map(function(elem){
     var td3 = document.createElement("td")
 
     var div1 = document.createElement("div")
-    div1.classList.add("mystyle");
-
-    var div2 = document.createElement("div")
-
-
-    var name =document.createElement("p");
-    name.innerText=elem.prodname;
-
-    var price = document.createElement("small");
-    price.value = elem.price;
-
-    var qty = document.createElement("small");
+    
