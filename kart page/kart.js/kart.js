@@ -13,10 +13,10 @@ data.map(function (elem) {
   var td2 = document.createElement("td");
   var td3 = document.createElement("td");
 
-  var div1 = document.createElement("div");
-  div1.classList.add("mystyle");
+  // var div1 = document.createElement("div");
+  // div1.classList.add("mystyle");
 
-  var div2 = document.createElement("div");
+  // var div2 = document.createElement("div");
 
   var name = document.createElement("p");
   name.innerText = elem.prodname;
@@ -29,9 +29,9 @@ data.map(function (elem) {
 
   var line = document.createElement("br");
 
-  div2.append(name, price, line);
+  // div2.append(name, price, line);
 
-  td.append(div2);
+  td.append(name);
 
   td1.append(qty);
 
@@ -43,21 +43,21 @@ data.map(function (elem) {
 
   arr.push(total);
 
-  td2.append(total);
+  td2.append(prc);
 
-  td3.append(elem.price);
+  td3.append(total);
 
-  row.append(td, td1, td3, td2);
+  row.append(td, td1, td2, td3);
 
   document.querySelector("table").append(row);
 
-  var line = document.createElement("p");
-  line.innerHTML = total;
+  // var line = document.createElement("p");
+  // line.innerHTML = total;
 
   // document.querySelector("#sub").append(line);
   // document.querySelector("#sub").append(line);
 
-  document.querySelector("#fnll").append(total);
+  // document.querySelector("#fnll").append(total);
 
   // document.querySelector("#sub>p>p").innerText=aTotal;
 });
@@ -76,15 +76,14 @@ document.querySelector("#btn").addEventListener("click", checkAdress);
 function checkAdress(elem) {
   var zip = document.querySelector("#zzip").value;
   console.log(zip);
-  if (zip.length < 6) {
-    alert("This product cannot be shipped to the location you've requested.");
+  if (zip.length == 6) {
+    alert("Wow! This product can ship to the location you've requested.");
   } else {
-    alert("Wow! This product can shipped to the location you've requested.");
+    alert("This product cannot be shipped to the location you've requested.");
   }
 }
 
-document.getElementById("checkbtn").addEventListener("click", thankuall());
+document.querySelector("#checkbtn").addEventListener("click", thankuall);
 function thankuall() {
-  event.preventDefault();
   window.location.href = "../thanku/thanku.html";
 }
