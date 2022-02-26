@@ -13,3 +13,26 @@ function linkeded() {
   event.preventDefault();
   window.location.href = "../createaccountpage/createacc.html ";
 }
+document.querySelector("#gotohome").addEventListener("click",goToHome)
+var array=JSON.parse(localStorage.getItem("userDataBase"));
+
+ function goToHome(){
+  event.preventDefault();
+  var email=document.querySelector("#firstid").value ;
+  var password=document.querySelector("#secid").value ;
+  var count=0;
+  for(var i=0; i<array.length; i++)
+  {
+  if((email==array[i].email)&& (password==array[i].password1))
+  {
+    window.location.href="../1st Project/index.html";
+    count++;
+  }
+  
+ }
+ if(count==0)
+ {
+   alert("invalid credentials");
+ }
+}
+
