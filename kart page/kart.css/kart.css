@@ -140,32 +140,4 @@ button{
  }
 
 
-.cart-page{
-    margin: 80px auto;
-}
-table{
-    width: 100%;
-    border-collapse: collapse;
-}
-.cart-info{
-    display: flex;
-    flex-wrap: wrap;
 
-}
-th{
-    text-align: left;
-    padding: 5px;
-    font-weight: normal;
-    
-    background-color: rgb(58, 58, 117);
-}
-
-td{
-    padding: 10ox 5px;
-    background-color: rgb(247, 234, 234);
-}
-td input{
-    width: 40px;
-    height: 30px;
-    padding: 5px;
-}
