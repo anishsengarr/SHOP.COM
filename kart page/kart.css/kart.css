@@ -119,25 +119,5 @@ button{
     font-weight: bolder;
     margin-left: 0px;
 }
- 
- #pay>div{
-     margin-top: -19px;
-    background-color: white;
-    /* border:1px solid red; */
-    margin-left: -25px;
-    border: 1px solid #ffffff;
-    border-radius: 6px;
-    color:#272340;
-    display:flex;
-   margin-right: 10px;
- }
- #pay>div>img{
-    /* border:1px solid red; */
-    margin-left: 30px;
-    padding:20px;
-   
-
- }
-
 
 
