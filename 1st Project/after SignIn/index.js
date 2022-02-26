@@ -20,6 +20,8 @@ function slink(){
 
 document.querySelector("#clothlink").addEventListener("click",clink)
 
+
+
 function clink(){
     window.location.href = "../Construct(Anish).Shop/clothing.html";
 }
