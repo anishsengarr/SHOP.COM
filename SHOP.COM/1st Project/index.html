@@ -12,11 +12,96 @@
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-     <iframe
+    <div id="hcontainer">
+        <div id="hshop">
+            <img src="https://img.shop.com/Image/resources/logos/shop-logo-us.svg" alt="shop">
+
+            <div id="navbar">
+               
+                <input type="checkbox" id="openSidebarMenu">
+                <label for="openSidebarMenu" class="sidebarIconToggle">
+                    <div class="spinner top"></div>
+                    <div class="spinner middle"></div>
+                    <div class="spinner bottom"></div>
+
+                </label>
+                
+                <div id="sidebarMenu">
+                    <ul class="menu">
+                        <li><a href="#"><h1>SHOP.COM</h1></a></li>
+                        <li><a href="#"><H4>Categories</H4></a></li>
+                        <li><a href="../Construct(Anish).Shop/clothing.html">Clothes</a></li>
+                        <li><a href="../Construct(Anish).Shop/shoes.html">Shoes</a></li>
+                        <li><a href="#">Beauty</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Sports</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Jewelry</a></li>
+                        <li><a href="#">Food & Drink</a></li>
+                    </ul>
+                   
+                </div>
+                
+                
+            </div>
+            
+        </div>
+        <div id="block">
+            <div id="search">
+                <div id="alldepartment">
+                    <select name="" id="" >
+                        <option value="">All Departments</option>
+                        <option value="">Auto</option>
+                        <option value="">Baby</option>
+                        <option value="">Beauty</option>
+                        <option value="">Books</option>
+                        <option value="">Cameras</option>
+                        <option value="">Clothes</option>
+                        <option value="">Movies</option>
+                        <option value="">Toys</option>
+                        <option value="">Tools</option>
+                        <option value="">Travels</option>
+                    </select>
+                </div>
+                <div class="hline"></div>
+                <div id="searchbar">
+                   <div class="search-container">
+                       <form>
+                           <input type="text" name=""placeholder="Search   SHOP.COM....."class="hinput">
+                            <button type="submit"class="hbutton"><i class="fi fi-bs-search"></i></button>
+                            
+                       </form> 
+                   </div>
+                </div>
+               
+                   
+                
+            </div> 
+            <div id="sevenset">
+                 <div>ExclusiveBrand</div>
+                 <div>Stores</div>
+                 <div>SHOP Travels</div>
+                 <div>Deals</div>
+                 <div>SHOP Buddy</div>
+                 <div>SHOP Local</div>
+                 <div>Departments</div>
+            </div>   
+        </div>
+        <div id="signpart">
+            <div><img src="./profile (1).png" alt=""><a href="C:\Users\User\Desktop\GitHub\signin\sign.html"> Sign in</a> </div>
+            <div><img src="./cargo.png" alt=""><a href=""> Order</a></div>
+            <div><img src="./shopping-cart.png" alt=""><a href="C:\Users\User\Desktop\GitHub\kart page\kart.html"> Cart</a></div>
+        </div>
+
+    </div>
+
+
+     <!-- <iframe
       style="height: 100%; width: 100%; overflow: hidden"
       src="../headerfooter/header.html"
       frameborder="0"
-    ></iframe>
+    ></iframe> -->
     <div id="container">
         <div id="main">
             <div>
@@ -41,8 +126,15 @@
                 <a href="#">See More Stores</a>
             </div>
             <div id="short">
-                <p>Sign in for the best experience</p>
-                <button id="signin" >Sign in</button>
+                <div>
+                    <p>Sign in for the best experience</p>
+                    <button id="signin" >Sign in</button>
+                </div>
+                <div>
+                    <p>See Your Wishlists</p>
+                    <button id="cart" >Cart</button>
+                </div>
+                
             </div>
         </div>
         <div class="box2">
@@ -256,7 +348,7 @@
                     <h4>WOMEN'S CLOTHING</h4>
                 </div>
                 <div>
-                    <img src="https://img.shop.com/Image/240000/243400/243406/products/1871564145.jpg?size=400x400" alt="">
+                    <img id="clothlink" src="https://img.shop.com/Image/240000/243400/243406/products/1871564145.jpg?size=400x400" alt="">
                     <h4>MEN'S CLOTHING</h4>
                 </div>
                 <div>
@@ -272,7 +364,7 @@
                     <h4>ASSECCORIES</h4>
                 </div>
                 <div>
-                    <img src="https://img.shop.com/Image/240000/243400/243406/products/1922216435.jpg?size=400x400" alt="">
+                    <img id="shoelink" src="https://img.shop.com/Image/240000/243400/243406/products/1922216435.jpg?size=400x400" alt="">
                     <h4>SHOE'S</h4>
                 </div>
                 <div>

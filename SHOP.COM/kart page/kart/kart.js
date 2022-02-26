@@ -76,14 +76,14 @@ document.querySelector("#btn").addEventListener("click", checkAdress);
 function checkAdress(elem) {
   var zip = document.querySelector("#zzip").value;
   console.log(zip);
-  if (zip.length < 6) {
+  if (zip.length != 6) {
     alert("This product cannot be shipped to the location you've requested.");
   } else {
     alert("Wow! This product can shipped to the location you've requested.");
   }
 }
 
-document.getElementById("checkbtn").addEventListener("click", thankuall());
+document.getElementById("checkbtn").addEventListener("click", thankuall);
 function thankuall() {
   event.preventDefault();
   window.location.href = "../thanku/thanku.html";
